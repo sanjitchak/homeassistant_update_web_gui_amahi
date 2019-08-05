@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Bellota-LightItalic';
+    src: url('../fonts/Bellota-LightItalic.otf');
+}
+
+@font-face {
+    font-family: 'Bellota-BoldItalic';
+    src: url('../fonts/Bellota-BoldItalic.otf');
+}
+
+body {
+    line-height: 17px;
+    background-color: #E6EAE8;
+}
+
+a {
+    color: #20AAE5;
+    text-decoration: none;
+}
+
+
+
+
+.column {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px #D3D3D3;
+    z-index: -1;
+    color: #555;
+}
+
+.user_details {
+    width: 300px;
+    height: 255px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.user_details img {
+ width: 286px;
+    height: 242px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+ 
+.main_column {
+        float: left;
+    width: 300px;
+    height: 256px;
+    margin-left: 78px;
+    z-index: -1;
+}
+
+#downgrade_button {
+    width: 280px;
+    height: 176px;
+}
+.post_form {
+    width: 100%;
+}
+
+.post_form textarea {
+    width: 81%;
+    height: 60px;
+    border-radius: 3px;
+    margin-right: 5px;
+    border: 1px solid #D3D3D3;
+    font-size: 12px;
+    padding: 5px;
+}
+
+ 
+
+.post_form input[type="submit"] {
+    width: 11%;
+    height: 60px;
+    border: none;
+    border-radius: 3px;
+    background-color: #3498db;
+    font-family: 'Bellota-BoldItalic', sans-serif;
+    color: rgb(202, 30, 30);
+    text-shadow: #73B6E2 0.5px 0.5px 0px;
+    font-size: 90%;
+    position: absolute;
+    outline: 0;
+    margin: 0;
+}
+
+.post_form input[type="submit"]:active {
+    padding: 5px 4px 4px 5px;
+}
+
+ 
+
