@@ -16,7 +16,7 @@ include("includes/header.php");
     <img class="loading" src="assets/images/icons/loading.gif">
 <p id="downgrade_fail"> Failed to do the Downgrade. Check your network connection. Refresh the page to try again. </p>
 <div id="hard_refresh">
-<p><span style="font-size: 14pt;"><strong><span style="text-decoration: underline;">Update done. Please hard refresh your browser, to clear cache and refresh. Instrctions for different browser given below:-</span></strong></span></p>
+<p><span style="font-size: 14pt;"><strong><span style="text-decoration: underline;">Upgrade/Downgrade done. Please hard refresh your browser, to clear cache and refresh. Instrctions for different browser given below:-</span></strong></span></p>
 <p><strong>For chrome:-</strong><br /><strong>Windows/Linux:</strong></p>
 <p>Hold down Ctrl and click the Reload button.<br />Or, Hold down Ctrl and press F5.</p>
 <p><br /><strong>Mac</strong>:</p>
