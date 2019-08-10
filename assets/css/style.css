@@ -53,8 +53,13 @@ a {
     margin-left: 78px;
     z-index: -1;
 }
-
+#downgrade_version {
+    margin-top: 13px;
+    margin-left: 4px;
+}
 #downgrade_button {
+       margin-top: -1px;
+    margin-left: 5px;
     width: 280px;
     height: 176px;
 }
