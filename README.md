@@ -29,7 +29,7 @@ panel_iframe:
 
 ## Steps to start:-  
 Execute:-  
-cd ```/path/to/repo/  ```
+cd ```/path/to/repo/  ```     
 php -S 0.0.0.0:50999  
 
 Now, go to your homeassitant and check updater in sidepanel.  
