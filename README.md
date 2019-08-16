@@ -15,8 +15,6 @@
                 message: "You have a new update. Update from side panel"
                 title: "Update Available"
 
-
-EOF
 ```
 
 ## Add this to configuration.yaml :-   
