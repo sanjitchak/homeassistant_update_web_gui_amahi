@@ -35,10 +35,10 @@ php -S 0.0.0.0:50999
 Now, go to your homeassitant and check updater in sidepanel.  
 
 ## To add service to start after restart:-    
-change in ```update_interface.sh``` file:- 
-change ```cd /var/hda/web-apps/hass/homeassistant_update_web_gui_amahi-master ``` to ```cd /path/to/REPO  ```
+change in ```update_interface.sh``` file:-    
+change ```cd /var/hda/web-apps/hass/homeassistant_update_web_gui_amahi-master ``` to ```cd /path/to/REPO  ```   
  
-Execute:-  
+Execute:-    
 chmod 755 path/to/update_interface.sh    
 
 #Hass Update web
