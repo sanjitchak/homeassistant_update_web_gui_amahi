@@ -41,20 +41,22 @@ change ```cd /var/hda/web-apps/hass/homeassistant_update_web_gui_amahi-master ``
 Execute:-    
 chmod 755 path/to/update_interface.sh    
 
-#Hass Update web
-cat > hass-update.service << SVC
-[Unit]
-Description=Hass Update web
-After=network-online.target
+```   
+#Hass Update web     
+cat > hass-update.service << SVC    
+[Unit]     
+Description=Hass Update web   
+After=network-online.target   
 
-[Service]
-Type=simple
-User=root
-ExecStart=/usr/bin/bash ```/path/to/repo```
+[Service]    
+Type=simple    
+User=root     
+ExecStart=/usr/bin/bash ```/path/to/repo```    
 
-[Install]
-WantedBy=multi-user.target
-SVC   
+[Install]   
+WantedBy=multi-user.target   
+SVC       
+````   
 
 sudo install hass-update.service /usr/lib/systemd/system;  
 
